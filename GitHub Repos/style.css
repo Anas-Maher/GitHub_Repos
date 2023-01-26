@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 700;
+}
+
+body {
+    background: linear-gradient(
+        to right top,
+        rgb(68, 68, 255),
+        rgb(255, 183, 50)
+        );
+        height: 100%;
+        width: 100%;
+        font-family: "Caveat", cursive;
+        background-repeat: no-repeat;
+}
+main {
+    width: 80vw;
+    background-color: #f6f6f6;
+    margin: 20px auto;
+}
+
+.get {
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.get > input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: larger;
+    height: 54px;
+    border-radius: 8px;
+    font-weight: normal;
+    font-family: "Caveat", cursive;
+}
+
+.get > input:focus {
+    outline: red 2px solid;
+}
+
+.get #btn {
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: red;
+    border-radius: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    line-height: 54px;
+}
+
+#btn:hover {
+    color: black;
+    transition: 850ms ease;
+}
+
+#show {
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 1em;
+    padding-bottom: 1em;
+}
+
+.TheData {
+    background: #ffffff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.TheData:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.req {
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: red;
+    padding: 0.3em;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.req:hover {
+    transition: 850ms ease;
+    opacity: 0.9;
+    color: black;
+}
+
+.di {
+    background-color: rgb(255, 208, 0);
+    padding: 4px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.name {
+    width: 40%;
+}
